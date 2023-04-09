@@ -5,6 +5,7 @@
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
+  "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && npx standard --fix && bun wiptest && npx parcel build src/index.js"
   },
