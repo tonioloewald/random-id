@@ -1,5 +1,7 @@
 # random-id
 
+[npm](https://www.npmjs.com/package/random-id-base36) | [github](https://github.com/tonioloewald/random-id)
+
 Generate random uuids and base-36 ids with ease and efficiency.
 
 > ### Note

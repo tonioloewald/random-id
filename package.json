@@ -1,6 +1,6 @@
 {
-  "name": "random-id",
-  "version": "1.0.0",
+  "name": "random-id-base36",
+  "version": "1.0.1",
   "keywords": ["crypto", "random", "uuid", "randomUUID"],
   "source": "src/index.js",
   "main": "dist/main.js",
