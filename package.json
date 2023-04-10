@@ -7,7 +7,7 @@
   "module": "dist/module.js",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && npx standard src --fix && bun wiptest && npx parcel build src/index.js"
+    "build": "rm -rf dist && npx standard src/*.js --fix && bun wiptest && npx parcel build"
   },
   "repository": {
     "type": "git",
