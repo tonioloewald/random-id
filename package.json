@@ -1,13 +1,13 @@
 {
   "name": "random-id-base36",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": ["crypto", "random", "uuid", "randomUUID"],
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && npx standard --fix && bun wiptest && npx parcel build src/index.js"
+    "build": "rm -rf dist && npx standard src --fix && bun wiptest && npx parcel build src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,15 @@
   },
   "targets": {
     "default": {
+      "distDir": "dist",
+      "isLibrary": true,
       "outputFormat": "esmodule"
+    },
+    "cdn": {
+      "isLibrary": true,
+      "outputFormat": "esmodule",
+      "optimize": true,
+      "distDir": "cdn"
     }
   }
 }
