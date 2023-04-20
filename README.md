@@ -10,7 +10,7 @@ Generate random uuids and base-36 ids with ease and efficiency.
 >
 > This library also polyfills `crypto.randomUUID()` when it's not otherwise available (i.e.
 > when your app is being served via `http`). Note that all the cautions against using this
-> stuff for crypto purposes unless you know what you're doing still applies, the goal of this
+> stuff for crypto purposes unless you know what you're doing still apply, the goal of this
 > code is to create robust random ids, e.g. for primary keys in sharded databases.
 
 Random and non-random unique ids. All generated using `crypto.getRandomValues`, i.e. a
