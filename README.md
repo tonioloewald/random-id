@@ -42,7 +42,6 @@ be used to create very good ids
 
 The nice thing about id() is that it's pretty efficient, and it's not
 going to bite you if you use it as a database key.
-*/
 
 ### Development Notes
 
